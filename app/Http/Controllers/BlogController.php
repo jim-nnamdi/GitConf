@@ -25,6 +25,7 @@ class BlogController extends Controller
         $blog->description = $request->description;
         $blog->author = $request->author;
         $blog->image = $request->image;
+        $blog->approved = $request->approved;
         $blog->save();
         return redirect("/blog");
     }

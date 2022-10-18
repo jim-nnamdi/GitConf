@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('blogs', function (Blueprint $table) {
             $table->id();
+            $table->string("name");
+            $table->longText("description");
+            $table->string("author")->nullable();
+            $table->string("image")->nullable();
+            $table->string("approved")->nullable();
             $table->timestamps();
         });
     }
