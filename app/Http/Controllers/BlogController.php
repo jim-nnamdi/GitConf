@@ -26,6 +26,11 @@ class BlogController extends Controller
         $blog->author = $request->author;
         $blog->image = $request->image;
         $blog->save();
-        redirect("/blog");
+        return redirect("/blog");
+    }
+
+    public function update(Blog $blog, Request $request, $id) {
+        $blog->update($request->all());
+        return redirect("/blog" + $id);
     }
 }
