@@ -72,9 +72,17 @@ p {
 .fourth {
   margin-bottom: 10px;
 }
+#image-board {
+  /* border:1px solid blue; */
+  width:500px;
+  height:300px;
+  margin:auto;
+  background:url('../images/dummy.jpg') no-repeat center;
+  background-size:cover;
+}
 .fifth {
   height: 200px;
-  margin-top: 5px;
+  margin-top: 10px;
   align-items: center;
 }
 /* .fifth_image {
@@ -83,7 +91,7 @@ p {
 .sixth {
   /* border: 1px solid red; */
   height: 400px;
-  margin-top: 10px;
+  margin-top: 5px;
   align-items: center;
 }
 .sixth_p {
