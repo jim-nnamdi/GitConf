@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #17064B;
+  background: -webkit-linear-gradient(bottom left, #17064B, #09053A);
+  background: -moz-linear-gradient(bottom left, #17064B, #09053A);
+  background: linear-gradient(to top right, #17064B, #09053A);
+}
+.container {
+  margin: auto;
+}
+.navbar-brand {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: white;
+}
+p {
+  color: #7E7E7E;
+}
+.btn {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.part {
+  color: white;
+}
+.header {
+  /* border: 1px solid green; */
+}
+.first {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  height: 400px;
+  align-items: center;
+}
+.first_p {
+  /* border: 1px solid black; */
+}
+.first_image {
+  /* border: 1px solid black; */
+  height: 380px;
+  background:url('../images/dummy.jpg') no-repeat center;
+  background-size:cover;
+}
+.second {
+  /* border: 1px solid red; */
+  height: 400px;
+  margin-top: 10px;
+  align-items: center;
+}
+.second_image {
+  /* border: 1px solid black; */
+  height: 380px;
+  background:url('../images/dummy.jpg') no-repeat center;
+  background-size:cover;
+}
+.second_p {
+  /* border: 1px solid black; */
+}
+.third {
+  height: 400px;
+  margin-top: 10px;
+  align-items: center;
+}
+.fourth {
+  margin-bottom: 10px;
+}
+#image-board {
+  /* border:1px solid blue; */
+  width:500px;
+  height:300px;
+  margin:auto;
+  background:url('../images/dummy.jpg') no-repeat center;
+  background-size:cover;
+}
+.fifth {
+  height: 200px;
+  margin-top: 10px;
+  align-items: center;
+}
+/* .fifth_image {
+  border-radius: 50%;
+} */
+.sixth {
+  /* border: 1px solid red; */
+  height: 400px;
+  margin-top: 5px;
+  align-items: center;
+}
+.sixth_p {
+
+}
+.sixth_image {
+  /* border: 1px solid black; */
+  height: 380px;
+  background:url('../images/dummy.jpg') no-repeat center;
+  background-size:cover;
+}
+.panel {
+  /* border: 1px solid red; */
+  height: auto;
+  align-items: center;
+  margin-top: 10px
+}
+.subscribe {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.email_box {
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  height: 35px;
+  width: 50%;
+}
+::placeholder {
+  color: white;
+}
+.join {
+  box-sizing: border-box;
+  margin-left: 4px;
+  width: 20%;
+  height: 40px;
+  border-radius: 8px;
+  background: linear-gradient(265.42deg, #5B2CE2 0%, #4C66EC 100%);
+}
+.glyphicon {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
