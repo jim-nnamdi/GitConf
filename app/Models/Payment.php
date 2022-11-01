@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Payment extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        "approved",
+        "paid",
+        "department",
+        "username",
+        "email",
+        "responseData"
+    ];
 }

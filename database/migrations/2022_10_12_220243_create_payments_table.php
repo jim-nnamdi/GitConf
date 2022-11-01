@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
+            $table->boolean("approved")->default(0);
+            $table->boolean("paid")->default(0);
+            $table->string("department")->nullable();
+            $table->string("username")->nullable();
+            $table->string("email")->nullable();
+            $table->longText("responseData")->nullable();
             $table->timestamps();
         });
     }
