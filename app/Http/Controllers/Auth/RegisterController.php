@@ -68,15 +68,12 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $user =  User::create([
+        return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'department' => $data['department'],
             'phone' => $data['phone'],
-            'location' => $data['location']
         ]);
-         Mail($data["email"],"Welcome to GITConference!", "Hello "+ $data["name"]+ "Your registration was successful, visit https://gitconference.com/login to view your profile");
-        return $user;
     }
 }
