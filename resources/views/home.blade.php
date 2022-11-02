@@ -27,6 +27,7 @@
                     <p class="leading-relaxed text-base">See our catalog of speakers which span across design and engineering pros.</p>
                 </div>
             </div>
+            
             <div class="xl:w-1/4 md:w-1/2 p-4">
                 <img class="h-40 w-full object-cover object-center" src="/gitconf.jpeg" alt="content">
                 <div class="bg-gray-100 p-6 rounded-lg">
